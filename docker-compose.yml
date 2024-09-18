@@ -1,0 +1,10 @@
+version: '3.9'
+services:
+  java-app:
+    image: docker-backbone:v1.0.0
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: docker-backbone
+    ports:
+      - "8080:8080"
