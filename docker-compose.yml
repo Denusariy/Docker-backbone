@@ -8,3 +8,13 @@ services:
     container_name: docker-backbone
     ports:
       - "8080:8080"
+
+  nginx:
+    container_name: nginx
+    image: nginx:latest
+    ports:
+      - "80:80"
+    volumes:
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf
+    depends_on:
+      - java-app

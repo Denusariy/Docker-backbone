@@ -1,6 +1,11 @@
 Для запуска:
 git clone https://github.com/Denusariy/Docker-backbone.git
-gradle build
 docker build . -t docker-backbone:v1.0.0
 docker-compose build
 docker-compose up
+
+При переходе в браузере по url http://localhost/api/healthcheck получаем ответ:
+{
+  "status": 1,
+  "msg": "pong"
+}
