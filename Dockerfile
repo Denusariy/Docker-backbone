@@ -1,33 +1,29 @@
-# Первый этап: сборка приложения
-FROM gradle:7.5-jdk17 AS builder
+# Используем образ с JDK 17 для сборки приложения
+FROM gradle:7.5.1-jdk17 AS build
 
 # Устанавливаем рабочую директорию
 WORKDIR /app
 
-# Копируем файлы Gradle и проект
-COPY ./gradlew ./gradlew
-COPY ./gradle ./gradle
-COPY ./build.gradle ./build.gradle
-COPY ./settings.gradle ./settings.gradle
-COPY ./src ./src
+# Копируем только файлы конфигурации Gradle
+COPY build.gradle settings.gradle ./
 
-# Устанавливаем права на выполнение для gradlew
-RUN chmod +x ./gradlew
+# Копируем исходный код
+COPY src ./src
 
-# Сборка приложения с помощью Gradle
-RUN ./gradlew clean build -x test
+# Собираем приложение
+RUN gradle build --no-daemon
 
-# Второй этап: запуск приложения
+# Используем минимальный образ JRE для выполнения приложения
 FROM openjdk:17-jdk-slim
 
 # Устанавливаем рабочую директорию
 WORKDIR /app
 
-# Копируем собранное приложение из образа сборки
-COPY --from=builder /app/build/libs/*.jar app.jar
+# Копируем скомпилированный JAR файл из предыдущего этапа сборки
+COPY --from=build /app/build/libs/*.jar app.jar
 
-# Открываем порт
+# Открываем порт, на котором будет слушать приложение
 EXPOSE 8080
 
-# Указываем команду для запуска приложения
-ENTRYPOINT ["java", "-jar", "app.jar"]
+# Запускаем приложение
+ENTRYPOINT ["java", "-Duser.timezone=Asia/Tashkent", "-jar", "/app/app.jar"]

@@ -8,6 +8,8 @@ services:
     container_name: docker-backbone
     ports:
       - "8080:8080"
+    volumes:
+      - ./logs:/var/log
 
   nginx:
     container_name: nginx

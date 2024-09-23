@@ -9,3 +9,5 @@ docker-compose up
   "status": 1,
   "msg": "pong"
 }
+
+Логи сохраняются вне контейнера в корне приложения ./logs

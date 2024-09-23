@@ -1,0 +1,104 @@
+2024-09-23 14:34:44 - Starting DockerBackboneApplication vv1.0.0 using Java 17.0.2 with PID 1 (/app/app.jar started by root in /app)
+2024-09-23 14:34:44 - No active profile set, falling back to 1 default profile: "default"
+2024-09-23 14:34:47 - Tomcat initialized with port 8080 (http)
+2024-09-23 14:34:47 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-23 14:34:47 - Starting service [Tomcat]
+2024-09-23 14:34:47 - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-23 14:34:47 - Initializing Spring embedded WebApplicationContext
+2024-09-23 14:34:47 - Root WebApplicationContext: initialization completed in 2386 ms
+2024-09-23 14:34:48 - Starting ProtocolHandler ["http-nio-8080"]
+2024-09-23 14:34:48 - Tomcat started on port 8080 (http) with context path '/'
+2024-09-23 14:34:48 - Started DockerBackboneApplication in 5.376 seconds (process running for 6.78)
+2024-09-23 14:34:55 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-23 14:34:55 - Initializing Servlet 'dispatcherServlet'
+2024-09-23 14:34:55 - Completed initialization in 7 ms
+2024-09-23 14:34:55 - Success!
+2024-09-23 14:42:39 - Starting DockerBackboneApplication vv1.0.0 using Java 17.0.2 with PID 1 (/app/app.jar started by root in /app)
+2024-09-23 14:42:39 - No active profile set, falling back to 1 default profile: "default"
+2024-09-23 14:42:40 - Tomcat initialized with port 8080 (http)
+2024-09-23 14:42:40 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-23 14:42:40 - Starting service [Tomcat]
+2024-09-23 14:42:40 - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-23 14:42:40 - Initializing Spring embedded WebApplicationContext
+2024-09-23 14:42:40 - Root WebApplicationContext: initialization completed in 905 ms
+2024-09-23 14:42:40 - Starting ProtocolHandler ["http-nio-8080"]
+2024-09-23 14:42:40 - Tomcat started on port 8080 (http) with context path '/'
+2024-09-23 14:42:40 - Started DockerBackboneApplication in 1.896 seconds (process running for 2.447)
+2024-09-23 14:43:16 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-23 14:43:16 - Initializing Servlet 'dispatcherServlet'
+2024-09-23 14:43:16 - Completed initialization in 1 ms
+2024-09-23 14:43:16 - Success!
+2024-09-23 14:46:37 INFO  - Starting DockerBackboneApplication vv1.0.0 using Java 17.0.2 with PID 1 (/app/app.jar started by root in /app)
+2024-09-23 14:46:37 INFO  - No active profile set, falling back to 1 default profile: "default"
+2024-09-23 14:46:39 INFO  - Tomcat initialized with port 8080 (http)
+2024-09-23 14:46:39 INFO  - Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-23 14:46:39 INFO  - Starting service [Tomcat]
+2024-09-23 14:46:39 INFO  - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-23 14:46:39 INFO  - Initializing Spring embedded WebApplicationContext
+2024-09-23 14:46:39 INFO  - Root WebApplicationContext: initialization completed in 2232 ms
+2024-09-23 14:46:40 INFO  - Starting ProtocolHandler ["http-nio-8080"]
+2024-09-23 14:46:40 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2024-09-23 14:46:41 INFO  - Started DockerBackboneApplication in 5.48 seconds (process running for 6.928)
+2024-09-23 14:50:21 INFO  - Starting DockerBackboneApplication vv1.0.0 using Java 17.0.2 with PID 1 (/app/app.jar started by root in /app)
+2024-09-23 14:50:21 INFO  - No active profile set, falling back to 1 default profile: "default"
+2024-09-23 14:50:22 INFO  - Tomcat initialized with port 8080 (http)
+2024-09-23 14:50:22 INFO  - Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-23 14:50:22 INFO  - Starting service [Tomcat]
+2024-09-23 14:50:22 INFO  - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-23 14:50:22 INFO  - Initializing Spring embedded WebApplicationContext
+2024-09-23 14:50:22 INFO  - Root WebApplicationContext: initialization completed in 937 ms
+2024-09-23 14:50:22 INFO  - Starting ProtocolHandler ["http-nio-8080"]
+2024-09-23 14:50:23 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2024-09-23 14:50:23 INFO  - Started DockerBackboneApplication in 2.123 seconds (process running for 2.697)
+2024-09-23 14:52:12 INFO  - Starting DockerBackboneApplication vv1.0.0 using Java 17.0.2 with PID 1 (/app/app.jar started by root in /app)
+2024-09-23 14:52:12 INFO  - No active profile set, falling back to 1 default profile: "default"
+2024-09-23 14:52:13 INFO  - Tomcat initialized with port 8080 (http)
+2024-09-23 14:52:13 INFO  - Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-23 14:52:13 INFO  - Starting service [Tomcat]
+2024-09-23 14:52:13 INFO  - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-23 14:52:13 INFO  - Initializing Spring embedded WebApplicationContext
+2024-09-23 14:52:13 INFO  - Root WebApplicationContext: initialization completed in 866 ms
+2024-09-23 14:52:13 INFO  - Starting ProtocolHandler ["http-nio-8080"]
+2024-09-23 14:52:13 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2024-09-23 14:52:13 INFO  - Started DockerBackboneApplication in 1.865 seconds (process running for 2.415)
+2024-09-23 14:52:57 INFO  - Starting DockerBackboneApplication vv1.0.0 using Java 17.0.2 with PID 1 (/app/app.jar started by root in /app)
+2024-09-23 14:52:57 INFO  - No active profile set, falling back to 1 default profile: "default"
+2024-09-23 14:52:58 INFO  - Tomcat initialized with port 8080 (http)
+2024-09-23 14:52:58 INFO  - Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-23 14:52:58 INFO  - Starting service [Tomcat]
+2024-09-23 14:52:58 INFO  - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-23 14:52:58 INFO  - Initializing Spring embedded WebApplicationContext
+2024-09-23 14:52:58 INFO  - Root WebApplicationContext: initialization completed in 931 ms
+2024-09-23 14:52:58 INFO  - Starting ProtocolHandler ["http-nio-8080"]
+2024-09-23 14:52:58 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2024-09-23 14:52:58 INFO  - Started DockerBackboneApplication in 1.888 seconds (process running for 2.459)
+2024-09-23 14:53:06 INFO  - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-23 14:53:06 INFO  - Initializing Servlet 'dispatcherServlet'
+2024-09-23 14:53:06 INFO  - Completed initialization in 2 ms
+2024-09-23 14:53:06 INFO  - Success!
+2024-09-23 14:58:26 +0000 INFO  - Starting DockerBackboneApplication vv1.0.0 using Java 17.0.2 with PID 1 (/app/app.jar started by root in /app)
+2024-09-23 14:58:26 +0000 INFO  - No active profile set, falling back to 1 default profile: "default"
+2024-09-23 14:58:29 +0000 INFO  - Tomcat initialized with port 8080 (http)
+2024-09-23 14:58:29 +0000 INFO  - Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-23 14:58:29 +0000 INFO  - Starting service [Tomcat]
+2024-09-23 14:58:29 +0000 INFO  - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-23 14:58:29 +0000 INFO  - Initializing Spring embedded WebApplicationContext
+2024-09-23 14:58:29 +0000 INFO  - Root WebApplicationContext: initialization completed in 2450 ms
+2024-09-23 14:58:30 +0000 INFO  - Starting ProtocolHandler ["http-nio-8080"]
+2024-09-23 14:58:30 +0000 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2024-09-23 14:58:30 +0000 INFO  - Started DockerBackboneApplication in 5.524 seconds (process running for 7.006)
+2024-09-23 14:58:34 +0000 INFO  - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-23 14:58:34 +0000 INFO  - Initializing Servlet 'dispatcherServlet'
+2024-09-23 14:58:34 +0000 INFO  - Completed initialization in 2 ms
+2024-09-23 14:58:34 +0000 INFO  - Success!
+2024-09-23 20:03:05 +0500 INFO  - Starting DockerBackboneApplication vv1.0.0 using Java 17.0.2 with PID 1 (/app/app.jar started by root in /app)
+2024-09-23 20:03:05 +0500 INFO  - No active profile set, falling back to 1 default profile: "default"
+2024-09-23 20:03:07 +0500 INFO  - Tomcat initialized with port 8080 (http)
+2024-09-23 20:03:07 +0500 INFO  - Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-23 20:03:07 +0500 INFO  - Starting service [Tomcat]
+2024-09-23 20:03:07 +0500 INFO  - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-23 20:03:08 +0500 INFO  - Initializing Spring embedded WebApplicationContext
+2024-09-23 20:03:08 +0500 INFO  - Root WebApplicationContext: initialization completed in 2652 ms
+2024-09-23 20:03:09 +0500 INFO  - Starting ProtocolHandler ["http-nio-8080"]
+2024-09-23 20:03:09 +0500 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2024-09-23 20:03:09 +0500 INFO  - Started DockerBackboneApplication in 5.612 seconds (process running for 7.051)
